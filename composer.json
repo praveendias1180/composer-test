@@ -14,5 +14,7 @@
             "email": "praveendias1180@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "praveendias1180/pdf": "^1.0"
+    }
 }

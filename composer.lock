@@ -1,0 +1,110 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "334a2e3b4c90958e796479c41a28b0be",
+    "packages": [
+        {
+            "name": "praveendias1180/pdf",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/praveendias1180/PDF.git",
+                "reference": "dcb2aa9808a3c18084dfa24b6261859110acfa8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/praveendias1180/PDF/zipball/dcb2aa9808a3c18084dfa24b6261859110acfa8d",
+                "reference": "dcb2aa9808a3c18084dfa24b6261859110acfa8d",
+                "shasum": ""
+            },
+            "require": {
+                "setasign/fpdf": "^1.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Praveendias1180\\Pdf\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Praveen Dias",
+                    "email": "praveendias1180@gmail.com",
+                    "homepage": "https://github.com/praveendias1180/"
+                }
+            ],
+            "description": "Extending the FPDF functionality. Easy to use tag support i, em, b, etc.",
+            "keywords": [
+                "fpdf",
+                "pdf"
+            ],
+            "support": {
+                "issues": "https://github.com/praveendias1180/PDF/issues",
+                "source": "https://github.com/praveendias1180/PDF/tree/v1.0.1"
+            },
+            "time": "2023-01-02T01:15:03+00:00"
+        },
+        {
+            "name": "setasign/fpdf",
+            "version": "1.8.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Setasign/FPDF.git",
+                "reference": "f4104a04c9a3f95c4c26a0a0531abebcc980987a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Setasign/FPDF/zipball/f4104a04c9a3f95c4c26a0a0531abebcc980987a",
+                "reference": "f4104a04c9a3f95c4c26a0a0531abebcc980987a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "ext-zlib": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "fpdf.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Plathey",
+                    "email": "oliver@fpdf.org",
+                    "homepage": "http://fpdf.org/"
+                }
+            ],
+            "description": "FPDF is a PHP class which allows to generate PDF files with pure PHP. F from FPDF stands for Free: you may use it for any kind of usage and modify it to suit your needs.",
+            "homepage": "http://www.fpdf.org",
+            "keywords": [
+                "fpdf",
+                "pdf"
+            ],
+            "support": {
+                "source": "https://github.com/Setasign/FPDF/tree/1.8.5"
+            },
+            "time": "2022-11-18T07:02:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
